@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(111, 172, 172);
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    width: 420px;
+}
+
+#msg {
+    margin-top: 30px;
+    width: 255px;
+    
+}
+
