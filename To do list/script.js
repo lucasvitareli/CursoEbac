@@ -14,6 +14,7 @@ $(document).ready(function() {
     })
     // Add a click event listener to dynamically created list items within the element with class 'task-list'
     $(document).on('click', '.task-list li', function() {
+        // Toggle the 'completed' class on the clicked list item
         $(this).toggleClass('completed')
     })
 
