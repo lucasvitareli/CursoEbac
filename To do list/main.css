@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(91, 128, 177);
+    font: normal 15px Arial;
+    overflow-x: hidden;
+}
+
+header, footer {
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    font-size: 32px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.473);
+}
+
+#create-task {
+    text-align: center;
+}
+
+/* Editing inputs */
+#create-task input,
+input[type="text"],
+input[type="button"] {
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 350px;
+}
+
+input[type="button"] {
+    width: 60px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Editing form */
+.task-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Defining spacing for the form lines */
+form.task-list ul li {
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #fff;
+    color: black;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Text decoration for completed tasks */
+.completed {
+    text-decoration: line-through; 
+}
